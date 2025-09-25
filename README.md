@@ -48,4 +48,3 @@ Genel olarak, modelin doğruluk skoru tatmin edici düzeydedir ve özellikle **B
 ## Kaggle Notebook
 
 Projenin tüm kodları ve çalıştırılabilir sürümü Kaggle üzerinde mevcuttur:  
-[Kaggle Notebook Linki]()
