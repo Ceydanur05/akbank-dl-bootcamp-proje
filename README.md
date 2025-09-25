@@ -44,3 +44,8 @@ Bu projede derin öğrenme tabanlı bir **Convolutional Neural Network (CNN)** m
   - Daha düşük learning rate underfitting’e yol açmıştır, daha düşük dropout ise overfitting riskini artırmıştır.  
 
 Genel olarak, modelin doğruluk skoru tatmin edici düzeydedir ve özellikle **Brain Tumor** sınıfında güçlü performans sergilerken, **Brain Meningioma** sınıfında ek iyileştirmelere ihtiyaç vardır.
+
+## Kaggle Notebook
+
+Projenin tüm kodları ve çalıştırılabilir sürümü Kaggle üzerinde mevcuttur:  
+[Kaggle Notebook Linki]()
