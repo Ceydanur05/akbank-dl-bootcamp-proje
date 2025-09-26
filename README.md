@@ -31,20 +31,20 @@ Bu projede derin öğrenme tabanlı bir **Convolutional Neural Network (CNN)** m
 
 # Elde Edilen Sonuçlar  
 
-- Modelin genel doğruluk (accuracy) skoru **%82** olarak elde edilmiştir.  
+- Modelin genel doğruluk (accuracy) skoru **%88** olarak elde edilmiştir.  
 - Eğitim sırasında **accuracy artarken** ve **loss azalırken**, doğrulama verilerinde dalgalanmalar gözlemlenmiştir. Bu durum **overfitting riskine** işaret etmiş, ancak dropout gibi yöntemlerle dengelenmiştir.  
 
 - **Confusion matrix** sonuçları incelendiğinde:  
   - **Brain Tumor** sınıfı model tarafından en başarılı şekilde ayırt edilmiştir (**372 doğru tahmin**, yalnızca **41 hata**).  
-  - **Brain Glioma** sınıfında model genel olarak başarılıdır (**302 doğru tahmin**), ancak **78 örnek meningioma ile karıştırılmıştır**.  
-  - **Brain Meningioma** sınıfında ise en fazla hata görülmüştür (**321 doğru tahmin**, fakat **90’dan fazla hata** ile özellikle glioma ve tumor sınıflarıyla karışıklık yaşanmıştır).  
+  - **Brain Glioma** sınıfında model genel olarak başarılıdır (**337 doğru tahmin**), ancak **30 hata yapılmıştır**.  
+  - **Brain Meningioma** sınıfında ise en fazla hata görülmüştür (**351 doğru tahmin**, fakat **80 hata** ile özellikle glioma ve tumor sınıflarıyla karışıklık yaşanmıştır).  
 
 - **Hiperparametre denemeleri** sonucunda:  
-  - **Dropout=0.5, Learning Rate=0.001** kombinasyonu en iyi sonucu vermiştir.  
+  - **Dropout=0.3, Learning Rate=0.001** kombinasyonu en iyi sonucu vermiştir.  
   - Daha düşük learning rate underfitting’e yol açmıştır, daha düşük dropout ise overfitting riskini artırmıştır.  
 
 Genel olarak, modelin doğruluk skoru tatmin edici düzeydedir ve özellikle **Brain Tumor** sınıfında güçlü performans sergilerken, **Brain Meningioma** sınıfında ek iyileştirmelere ihtiyaç vardır.
 
-## Kaggle Notebook
+## Kaggle Notebook Linki
 
-Projenin tüm kodları ve çalıştırılabilir sürümü Kaggle üzerinde mevcuttur:  (https://www.kaggle.com/code/ceydanurrnek/notebookb21888e9e2)
+Projenin tüm kodları ve çalıştırılabilir sürümü Kaggle üzerinde mevcuttur:  https://www.kaggle.com/code/ceydanurrnek/notebookb21888e9e2
